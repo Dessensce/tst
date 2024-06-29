@@ -85,7 +85,7 @@ while wait(1) do
 
         -- Find items to display
         for _, obj in ipairs(a) do
-            if obj.Name == "ItemPickupScript" or obj.Name == "NewItemPickupScript" then
+            if obj.Name == "ItemPickupScript" or obj.Name == "NewItemPickupScript" or obj.ClassName == "TouchTramsmitter" then
 				if obj.Parent:FindFirstChild("ClickDetector") then
 					table.insert(items, obj.Parent)
 				end
