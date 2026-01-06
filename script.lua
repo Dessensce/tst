@@ -7,6 +7,7 @@ for _, remotes in ReplicatedStorage_upvr:GetDescendants() do
 			remotes.OnClientEvent:Connect(function(mode, ...)
 				if mode == "lwchzwil" then
 					print(...)
+					print("i should have logged it")
 				end
 			end)
 		end 
