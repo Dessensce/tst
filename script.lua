@@ -1,3 +1,4 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
 local ReplicatedStorage_upvr = game:GetService("ReplicatedStorage")
 
 for _, remotes in ReplicatedStorage_upvr:GetDescendants() do
