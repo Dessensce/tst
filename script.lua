@@ -18,5 +18,7 @@ for _, remotes in ReplicatedStorage_upvr:GetDescendants() do
 end
 
 while task.wait() do
-	print(stuff)
+	if stuff ~= "stuff" then
+		print(stuff)
+	end
 end
