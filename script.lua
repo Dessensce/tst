@@ -5,9 +5,11 @@ for _, remotes in ReplicatedStorage_upvr:GetDescendants() do
 		if #remotes.Name == 36 then
 			remotes.OnClientEvent:Connect(function(mode, ...)
 				if mode == "lwchzwil" then
-					setclipboard(...)
+					writefile('./test.txt', ...)
 				end
 			end)
 		end 
 	end
 end
+
+
