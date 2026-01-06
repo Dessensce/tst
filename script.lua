@@ -1,4 +1,4 @@
-if not game:IsLoaded() then game.Loaded:Wait() end
+fif not game:IsLoaded() then game.Loaded:Wait() end
 local ReplicatedStorage_upvr = game:GetService("ReplicatedStorage")
 
 local stuff = "stuff"
